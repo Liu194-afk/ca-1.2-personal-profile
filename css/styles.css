@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f4f7fb;
+  color: #222;
+  font-family: "Nunito", Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 25px 0;
+  background: #2f6690;
+  color: white;
+}
+
+header h1 {
+  margin: 0 0 15px;
+}
+
+.profile-photo {
+  display: block;
+  width: 180px;
+  height: 225px;
+  margin-bottom: 15px;
+  object-fit: cover;
+  border: 4px solid white;
+}
+
+nav a {
+  margin-right: 20px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.section {
+  margin: 25px 0;
+  padding: 20px;
+  background: white;
+  border: 1px solid #d7e0ea;
+  border-radius: 6px;
+}
+
+.section h2 {
+  margin-top: 0;
+  color: #2f6690;
+}
+
+.skills-list {
+  padding-left: 25px;
+}
+
+.skills-list li {
+  margin: 8px 0;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #999;
+  border-radius: 4px;
+  font-family: "Nunito", Arial, sans-serif;
+}
+
+textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background: #2f6690;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #244f70;
+}
+
+.form-note {
+  margin-bottom: 0;
+  color: #666;
+  font-size: 14px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto 25px;
+}
+
+footer a {
+  color: #2f6690;
+}
+
+@media (max-width: 600px) {
+  .profile-photo {
+    width: 150px;
+    height: 188px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin-bottom: 8px;
+  }
+
+  footer {
+    display: block;
+  }
+}
